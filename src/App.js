@@ -5,6 +5,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import Landing from "./pages/Landing";
+import MyComponent from "./pages/formtest";
 import { useEffect } from "react";
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Landing />} />
+      <Route path="/formtest" element={<MyComponent />} />
     </Routes>
   );
 }

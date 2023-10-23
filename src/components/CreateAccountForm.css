@@ -50,10 +50,10 @@
 }
 .already-have-a,
 .log-in {
-  align-self: stretch;
+  align-self: center;
   flex: 1;
   display: flex;
-  align-items: center;
+  align-items: center;  
 }
 .log-in:hover {
   color: var(--color-seagreen-200);
@@ -68,25 +68,39 @@
   text-align: left;
   cursor: pointer;
 }
-.frame3,
 .loginform {
   align-self: stretch;
   flex: 1;
   overflow: hidden;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: var(--gap-61xl);
+  justify-content: center;  
   text-align: right;
   font-size: var(--font-size-5xl);
   color: var(--color-gray-100);
 }
 .loginform {
   flex-direction: column;
-  gap: var(--gap-8xl);
+  gap: var(--gap-11xl);
   text-align: center;
   font-size: var(--font-size-7xl);
   color: var(--head-and-foot);
   font-family: var(--font-poppins);
+}
+.log-in{
+  overflow: visible;
+  text-overflow: visible;
+}
+.frame3{
+  overflow: visible;
+  flex-direction: column;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  text-align: right;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-100);
 }

@@ -33,6 +33,8 @@ const CreateAccountForm = () => {
         inputPlaceholder="Email"
         inputLabel="Enter e-mail here"
         inputAutocomplete="email"
+        propOverflow="hidden"
+        propOverflow1="hidden"
       />
       <FullNameForm
         inputId="3"
@@ -40,7 +42,9 @@ const CreateAccountForm = () => {
         inputPlaceholder="Password"
         inputLabel="Enter Password here"
         inputAutocomplete="current-password"
-        inputType="password"        
+        inputType="password"       
+        propOverflow="unset"
+        propOverflow1="unset" 
       />
       <div className="frame2">
         <div
@@ -50,13 +54,11 @@ const CreateAccountForm = () => {
           <div className="create-account">Create Account</div>
         </div>
       </div>
-      <div className="frame3">
-        <div className="text1">{` `}</div>
-        <div className="already-have-a">Already have a account?</div>
+      <div className="frame3">        
+        <div className="already-have-a">Already have an account?</div>
         <div className="log-in" onClick={onLogInTextClick}>
           Log in
-        </div>
-        <div className="text2" onClick={onText4Click}>{` `}</div>
+        </div>        
       </div>
       <div className="frame1">
         <div className="create-account">- OR -</div>

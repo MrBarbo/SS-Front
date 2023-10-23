@@ -13,7 +13,7 @@ const ContinueWithGitCentreFi = ({
 
   return (
     <div
-      className="continue-with-git-centre-fi"
+      className="continue-with-git-centre"
       style={continueWithGitCentreFiStyle}
       onClick={onContinueWithGitCentreFiClick}
     >

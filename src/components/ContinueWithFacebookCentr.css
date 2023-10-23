@@ -43,3 +43,11 @@
   color: var(--color-white);
   font-family: var(--font-roboto);
 }
+
+.continue-with-facebook-centr:hover {
+  background-color: var(--blue-hover);
+}
+
+.continue-with-facebook-centr:active {
+  background-color: var(--blue-pressed);
+}

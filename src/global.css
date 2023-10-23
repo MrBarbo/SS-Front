@@ -23,8 +23,8 @@ body {
 
   /* Colors */
   --color-white: #fff;
-  --color-whitesmoke: #f6f6f6;
-  --color-gainsboro: #dedede;
+  --color-whitesmoke: #dfdfdf;
+  --color-gainsboro: #d6d6d6;
   --color-gray-400: #757575;
   --color-gray-100: #1e1e1e;
   --color-royalblue: #1877f2;
@@ -41,6 +41,10 @@ body {
   --white: #fff;
   --background1: #1e1e1e;
   --primary1: #34a853;
+  --black-hover: #111111;
+  --black-pressed: #3F3F3F;
+  --blue-hover: #1A5DB5;
+  --blue-pressed: #0C3A76;
 
   /* Gaps */
   --gap-3xs: 10px;

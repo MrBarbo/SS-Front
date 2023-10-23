@@ -1,0 +1,58 @@
+.frame-icon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.loginlinks {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 0 73px;
+}
+.content,
+.frame,
+.loginlinks,
+.loginpage {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.content {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-6xl) 0 0 var(--br-6xl);
+  background-color: var(--color-white);
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xs);
+  gap: 11px;
+}
+.frame,
+.loginpage {
+  height: 1080px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.frame {
+  flex: 1;
+}
+.loginpage {
+  position: relative;
+  background-color: #3b3b3b;
+  width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .frame,
+  .loginlinks {
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame {
+    gap: -1200px;
+  }
+}

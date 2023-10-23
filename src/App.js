@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import {
   Routes,
   Route,
@@ -6,7 +7,7 @@ import {
 } from "react-router-dom";
 import Landing from "./pages/Landing";
 import MyComponent from "./pages/formtest";
-import { useEffect } from "react";
+import LoginPage from "./pages/LoginPage";
 
 function App() {
   const action = useNavigationType();
@@ -48,6 +49,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Landing />} />
       <Route path="/formtest" element={<MyComponent />} />
+      <Route path="/Login" element={<LoginPage />} />
     </Routes>
   );
 }

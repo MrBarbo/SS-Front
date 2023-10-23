@@ -8,6 +8,7 @@ import {
   ThemeProvider,
   createTheme,
   StyledEngineProvider,
+  Footer,
 } from "@mui/material";
 
 import "./global.css";
@@ -22,7 +23,7 @@ root.render(
     <StyledEngineProvider injectFirst>
       <ThemeProvider theme={muiTheme}>
         <CssBaseline />
-        <App />
+        <App />        
       </ThemeProvider>
     </StyledEngineProvider>
   </BrowserRouter>

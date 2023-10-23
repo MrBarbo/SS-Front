@@ -1,7 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import { useCallback } from "react";
+import Footer from "../components/footerLanding";
 import "./Landing.css";
 
 const Landing = () => {
+  const navigate = useNavigate();
   const onFrameContainer3Click = useCallback(() => {
     // Please sync "LoginPage" to the project
   }, []);
@@ -11,8 +14,8 @@ const Landing = () => {
   }, []);
 
   const onFrameContainer7Click = useCallback(() => {
-    // Please sync "LoginPage" to the project
-  }, []);
+    navigate("/Login");
+  }, [navigate]);
 
   const onFrameContainer11Click = useCallback(() => {
     // Please sync "LoginPage" to the project
@@ -191,7 +194,7 @@ const Landing = () => {
                   </div>
                   <div
                     className="button-wrapper5"
-                    onClick={onFrameContainer3Click}
+                    onClick={onFrameContainer7Click}
                   >
                     <div className="button7">
                       <div className="div12">{`Go <~>`}</div>
@@ -214,7 +217,7 @@ const Landing = () => {
                   </div>
                   <div
                     className="button-wrapper5"
-                    onClick={onFrameContainer5Click}
+                    onClick={onFrameContainer7Click}
                   >
                     <div className="button7">
                       <div className="div12">{`Go <~>`}</div>
@@ -282,7 +285,7 @@ const Landing = () => {
                   </div>
                   <div
                     className="button-wrapper5"
-                    onClick={onFrameContainer11Click}
+                    onClick={onFrameContainer7Click}
                   >
                     <div className="button7">
                       <div className="div12">{`Go <~>`}</div>
@@ -305,7 +308,7 @@ const Landing = () => {
                   </div>
                   <div
                     className="button-wrapper5"
-                    onClick={onFrameContainer13Click}
+                    onClick={onFrameContainer7Click}
                   >
                     <div className="button7">
                       <div className="div12">{`Go <~>`}</div>
@@ -316,28 +319,7 @@ const Landing = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="footer1">
-        <div className="footer-item" />
-        <div className="frame-parent1">
-          <div className="frame-parent2">
-            <div className="frame-parent3">
-              <div className="frame-wrapper1">
-                <div className="logo-container">
-                  <img className="logo-icon2" alt="" src="/logo@2x.png" />
-                  <div className="div12">SuperSite</div>
-                </div>
-              </div>
-              <div className="service-name7">Lore Ipsum dolor sit amet</div>
-            </div>
-            <div className="socials-group">
-              <div className="socials1">Socials</div>
-              <img className="frame-item" alt="" src="/group-22.svg" />
-            </div>
-          </div>
-          <div className="copyright1">© Copyright</div>
-        </div>
-      </div>
+      </div>      
       <div className="header1">
         <div className="logo-parent1">
           <img className="logo-icon2" alt="" src="/logo@2x.png" />
@@ -378,8 +360,9 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      
+      <Footer/>
     </div>
+    
   );
 };
 

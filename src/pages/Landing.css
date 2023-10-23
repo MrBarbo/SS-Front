@@ -382,7 +382,6 @@
   justify-content: center;
   gap: var(--gap-sm);
 }
-.footer1,
 .logo-parent1 {
   display: flex;
   align-items: center;
@@ -390,14 +389,22 @@
 }
 
 .footer1 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  /*display: flex;
+  align-items: center;
+  justify-content: flex-start;  
   width: 100%;
   background-color: var(--head-and-foot);
   height: 139px;
   flex-direction: column;
-  gap: var(--gap-xl);
+  gap: var(--gap-xl);*/
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--head-and-foot);
+  padding: var(--padding-13xl) var(--padding-5xs) var(--padding-5xs) var(--padding-15xl);
+  box-sizing: border-box;
 }
 .logo-parent1 {
   flex-direction: row;
@@ -506,7 +513,7 @@
   background-color: var(--head-and-foot);
 }
 .landing {
-  position: relative;
+  
   background-color: var(--background1);
   width: 100%;
   height: 3395px;

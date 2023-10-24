@@ -1,0 +1,54 @@
+.consectetur-adipiscing {
+  color: var(--primary);
+}
+.lorem-ipsum-dolor-container {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.image-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 298px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image-wrapper {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-50xl);
+}
+.lorem-ipsum-dolor-sit-amet-co-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0px;
+  gap: var(--gap-11xl);
+}
+.lorem-ipsum-dolor8 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 25px;
+  color: var(--gray);
+}
+.who-we-are {
+  width: 1052px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--white);
+  font-family: var(--font-fira-code);
+}

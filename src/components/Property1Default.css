@@ -1,0 +1,66 @@
+.property-1default-child {
+  position: relative;
+  width: 330.6px;
+  height: 201px;
+  object-fit: cover;
+}
+.project {
+  position: relative;
+}
+.techs {
+  flex: 1;
+  position: relative;
+}
+.project-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.project-name1 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.lorem-ipsum-dolor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--gray);
+}
+.button-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px var(--padding-95xl);
+}
+.project-name-group {
+  align-self: stretch;
+  border-top: 1px solid var(--gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-12xs);
+  gap: var(--gap-base);
+  font-size: var(--font-size-5xl);
+  color: var(--white);
+}
+.property-1default {
+  border: 1px solid var(--gray);
+  box-sizing: border-box;
+  height: 519px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--gray);
+  font-family: var(--font-fira-code);
+}

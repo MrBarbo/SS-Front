@@ -1,0 +1,28 @@
+.b {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 176px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.add-service {
+  position: relative;
+  font-size: var(--font-size-xl);
+}
+.statehover-typeform {
+  border: 4px dashed var(--gray);
+  box-sizing: border-box;
+  width: 474px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-34xl) var(--padding-base);
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--white);
+  font-family: var(--font-fira-code);
+}

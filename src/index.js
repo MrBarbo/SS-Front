@@ -8,12 +8,15 @@ import {
   ThemeProvider,
   createTheme,
   StyledEngineProvider,
-  Footer,
 } from "@mui/material";
 
 import "./global.css";
 
-const muiTheme = createTheme();
+const muiTheme = createTheme({
+  palette: {
+    mode: 'dark',
+  },
+});
 
 const container = document.getElementById("root");
 const root = createRoot(container);

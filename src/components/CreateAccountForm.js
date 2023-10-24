@@ -26,6 +26,8 @@ const CreateAccountForm = () => {
         inputPlaceholder="Full Name"
         inputLabel="Enter full name here"
         inputAutocomplete="name"
+        propOverflow="unset"
+        propOverflow1="unset" 
       />
       <FullNameForm
         inputId="2"
@@ -33,8 +35,8 @@ const CreateAccountForm = () => {
         inputPlaceholder="Email"
         inputLabel="Enter e-mail here"
         inputAutocomplete="email"
-        propOverflow="hidden"
-        propOverflow1="hidden"
+        propOverflow="unset"
+        propOverflow1="unset" 
       />
       <FullNameForm
         inputId="3"

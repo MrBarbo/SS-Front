@@ -1,0 +1,39 @@
+.logo-icon1 {
+  position: relative;
+  width: 29px;
+  height: 26px;
+  object-fit: cover;
+}
+.supersite1 {
+  position: relative;
+}
+.logo-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.header-link-parent {
+  width: 646px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-24xl);
+}
+.header {
+  background-color: var(--head-and-foot);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-13xl) var(--padding-5xs) var(--padding-5xs)
+    var(--padding-15xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-fira-code);
+  align-self: stretch;
+}

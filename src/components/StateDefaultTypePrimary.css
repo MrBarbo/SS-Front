@@ -1,0 +1,16 @@
+.go {
+  position: relative;
+  font-weight: 500;
+}
+.statedefault-typeprimary {
+  border: 1px solid var(--primary);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-fira-code);
+}

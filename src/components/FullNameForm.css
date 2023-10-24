@@ -21,7 +21,7 @@
 }
 .nameinp {
   border-radius: var(--br-xl);
-  background-color: var(--color-darkgray);
+  background-color: #3b3b3b;
   padding: 0 var(--padding-9xs);
 }
 .fullname-input {

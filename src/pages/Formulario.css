@@ -39,7 +39,4 @@
   justify-content: flex-start;
   gap: var(--gap-5xl);
 }
-.header {
-  justify-content: center;
-}
 

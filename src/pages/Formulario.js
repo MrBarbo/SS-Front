@@ -54,7 +54,7 @@ const Formulario = () => {
         showFrameDiv={false}
         showHeaderLink
         headerAlignItems="flex-end"
-        headerPadding="var(--padding-13xl) var(--padding-5xs) var(--padding-5xs) var(--padding-15xl)"
+        headerPadding="var(--padding-13xl) 0px var(--padding-5xs) 0px"
         frameDivJustifyContent="flex-start"
         frameDivGap="43px"
         headerLinkCursor="unset"

@@ -43,3 +43,6 @@
   color: var(--white);
   font-family: var(--font-fira-code);
 }
+.property-1default1:hover{
+  background-color: #e6e6e627;
+}

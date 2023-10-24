@@ -3,6 +3,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: row;
+  gap: var(--gap-6xl);
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;

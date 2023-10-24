@@ -4,6 +4,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
+  gap: var(--gap-6xl);
   justify-content: space-between;
   padding: 0px var(--padding-mini);
 }

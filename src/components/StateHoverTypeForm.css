@@ -26,3 +26,7 @@
   color: var(--white);
   font-family: var(--font-fira-code);
 }
+
+.statehover-typeform:hover{
+  background: var( --color-mediumseagreen);
+}

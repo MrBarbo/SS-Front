@@ -34,13 +34,10 @@
   padding: 0 var(--padding-2xs);
   gap: 11px;
 }
-.frame,
-.loginpage {
+.frame{
   height: 100%;
   width: 100%;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  
 }
 .frame {
   flex: 1;
@@ -49,11 +46,14 @@
   position: relative;
   background-color: #3b3b3b;
   width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .loginlinks{
   gap: 20px
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 100%) {
   .frame,
   .loginlinks {
     flex-direction: row;
@@ -61,7 +61,5 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .frame {
-    gap: -1200px;
-  }
+  
 }

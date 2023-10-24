@@ -7,9 +7,11 @@ const StateDefaultTypePrimary = ({
   stateDefaultTypePrimaryJustifyContent,
   stateDefaultTypePrimaryFlex,
   stateDefaultTypePrimaryWidth,
+  goClick,
   goFontSize,
   goTextAlign,
   goFlex,
+  goCursor
 }) => {
   const stateDefaultTypePrimaryStyle = useMemo(() => {
     return {
@@ -17,12 +19,14 @@ const StateDefaultTypePrimary = ({
       justifyContent: stateDefaultTypePrimaryJustifyContent,
       flex: stateDefaultTypePrimaryFlex,
       width: stateDefaultTypePrimaryWidth,
+      cursor: "pointer"
     };
   }, [
     stateDefaultTypePrimaryAlignItems,
     stateDefaultTypePrimaryJustifyContent,
     stateDefaultTypePrimaryFlex,
     stateDefaultTypePrimaryWidth,
+    goCursor,
   ]);
 
   const goStyle = useMemo(() => {
@@ -37,6 +41,7 @@ const StateDefaultTypePrimary = ({
     <div
       className="statedefault-typeprimary"
       style={stateDefaultTypePrimaryStyle}
+      onClick={goClick}
     >
       <div className="go" style={goStyle}>
         {go}

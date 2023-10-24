@@ -160,7 +160,8 @@ const Prefab = () => {
         />
         <WhatWeHave
           rectangle22="/rectangle-22@2x.png"
-          produName="Produ Name"
+          produName="Nombre de mi Posible producto "
+          productDesc="Esta sería la descripción de mi producto, si tan solo tuviera uno"
           rectangle221="/rectangle-225@2x.png"
           produName1="Produ Name"
           rectangle222="/rectangle-227@2x.png"
@@ -186,11 +187,32 @@ const Prefab = () => {
           frameDivCursor4="unset"
         />
         <WhatWeDo
-          rectangle22="/rectangle-225@2x.png"
-          rectangle221="/rectangle-227@2x.png"
-          rectangle222="/rectangle-225@2x.png"
-          rectangle223="/rectangle-227@2x.png"
-          whatWeDoAlignSelf="stretch"
+          rectangle22="/rectangle-22@2x.png"
+          projectName="Nombre de mi Posible proyecto "
+          projectDesc="Esta sería la descripción de mi proyecto, si tan solo tuviera uno"
+          rectangle221="/rectangle-225@2x.png"
+          projectName1="project Name"
+          rectangle222="/rectangle-227@2x.png"
+          projectName2="project Name"
+          rectangle223="/rectangle-22@2x.png"
+          projectName3="project Name"
+          rectangle224="/rectangle-225@2x.png"
+          projectName4="project Name"
+          rectangle225="/rectangle-227@2x.png"
+          projectName5="project Name"
+          whatWeHaveWidth="unset"
+          whatWeHaveAlignSelf="stretch"
+          frameDivCursor="unset"
+          projectctWidth="499.6px"
+          projectctFlex="unset"
+          frameDivCursor1="unset"
+          frameDivCursor2="unset"
+          projectctWidth1="499.6px"
+          projectctFlex1="unset"
+          frameDivCursor3="unset"
+          projectctWidth2="499.6px"
+          projectctFlex2="unset"
+          frameDivCursor4="unset"
         />
       </div>
       <Footer

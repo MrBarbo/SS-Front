@@ -6,10 +6,13 @@
 body {
   margin: 0;
   line-height: normal;
-  padding: 0%;
+  padding: 0;
   box-sizing: border-box;
 }
 :root {
+
+  padding: 0;
+  box-sizing: border-box;
   /* fonts */
   --font-roboto: Roboto;
   --font-poppins: Poppins;

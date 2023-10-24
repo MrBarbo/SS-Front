@@ -5,6 +5,7 @@ import "./Property1Default1.css";
 const Property1Default1 = ({
   rectangle22,
   produName,
+  productDesc,
   property1DefaultWidth,
   property1DefaultFlex,
   rectangleIconWidth,
@@ -54,10 +55,7 @@ const Property1Default1 = ({
       />
       <div className="produ-name-parent">
         <div className="produ-name">{produName}</div>
-        <div className="lorem-ipsum-dolor1">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vel
-          facilisis volutpat est velit egestas dui id ornare.
+        <div className="lorem-ipsum-dolor1">{productDesc}
         </div>
         <div
           className="button-container"

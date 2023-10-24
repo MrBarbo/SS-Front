@@ -1,11 +1,15 @@
 import { useCallback } from "react";
 import FullNameForm from "./FullNameForm";
+import { useNavigate } from "react-router-dom";
 import "./CreateAccountForm.css";
 
-const CreateAccountForm = () => {
+const CreateAccountForm = () => {  
+
+  const navigate = useNavigate();
   const onButtonCreateAccContainerClick = useCallback(() => {
+    navigate("/Formulario");
     // Please sync "Formulario" to the project
-  }, []);
+  }, [navigate]);
 
   const onLogInTextClick = useCallback(() => {
     // Please sync "Formulario" to the project

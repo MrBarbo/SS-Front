@@ -269,6 +269,8 @@ const Formulario = () => {
             goFontSize="48px"
             goTextAlign="center"
             goFlex="1"
+            goClick={onServicesContainer3Click}
+            goCursor="pointer"
           />
         </div>
       </main>

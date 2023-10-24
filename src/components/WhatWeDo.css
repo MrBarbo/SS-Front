@@ -9,10 +9,21 @@
   padding: var(--padding-3xs) var(--padding-mini);
 }
 .what-we-do {
+  width: 1021.7px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-28xl) 0px;
+  box-sizing: border-box;
   gap: var(--gap-3xs);
+}
+
+@media screen and (max-width: 420px) {
+  .project-group {
+    flex-direction: row;
+    gap: var(--gap-41xl);
+    align-items: flex-start;
+    justify-content: center;
+  }
 }

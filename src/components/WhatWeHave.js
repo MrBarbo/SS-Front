@@ -6,6 +6,7 @@ import "./WhatWeHave.css";
 const WhatWeHave = ({
   rectangle22,
   produName,
+  productDesc,
   rectangle221,
   produName1,
   rectangle222,
@@ -104,7 +105,8 @@ const WhatWeHave = ({
       <div className="product-parent">
         <Property1Default1
           rectangle22="/rectangle-22@2x.png"
-          produName="Produ Name"
+          produName={produName}
+          productDesc={productDesc}
           property1DefaultWidth="332.6px"
           property1DefaultFlex="unset"
           rectangleIconWidth="unset"

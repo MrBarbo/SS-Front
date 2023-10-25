@@ -262,8 +262,8 @@ const WhatWeOffer = ({
       />
       <div className="services-parent">
         <StateHoverTypeForm
-          prop="Service Name"
-          addService="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          prop={serviceNameText}
+          addService={serviceDescriptionText}
           stateHoverTypeFormBorder="1px solid var(--primary)"
           stateHoverTypeFormWidth="466px"
           stateHoverTypeFormJustifyContent="flex-start"
@@ -290,8 +290,8 @@ const WhatWeOffer = ({
           addServiceFontWeight="unset"
         />
         <StateHoverTypeForm
-          prop="Service Name"
-          addService="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          prop={serviceName}
+          addService={serviceDescription}
           stateHoverTypeFormBorder="1px solid var(--primary)"
           stateHoverTypeFormWidth="466px"
           stateHoverTypeFormJustifyContent="flex-start"
@@ -318,8 +318,8 @@ const WhatWeOffer = ({
           addServiceFontWeight="unset"
         />
         <StateHoverTypeForm
-          prop="Service Name"
-          addService="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          prop={serviceSubtitleText}
+          addService={serviceDescriptionLongTex}
           stateHoverTypeFormBorder="1px solid var(--primary)"
           stateHoverTypeFormWidth="466px"
           stateHoverTypeFormJustifyContent="flex-start"
@@ -346,8 +346,8 @@ const WhatWeOffer = ({
           addServiceFontWeight="unset"
         />
         <StateHoverTypeForm
-          prop="Service Name"
-          addService="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          prop={serviceImageUrl}
+          addService={serviceDescriptionLongTex2}
           stateHoverTypeFormBorder="1px solid var(--primary)"
           stateHoverTypeFormWidth="466px"
           stateHoverTypeFormJustifyContent="flex-start"

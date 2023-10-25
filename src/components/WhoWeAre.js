@@ -166,7 +166,7 @@ const WhoWeAre = ({
           />
         </div>
       </div>
-      <div className="lorem-ipsum-dolor8" style={loremIpsumDolor1Style}>
+      <div className="lorem-ipsum-dolor8" style={loremIpsumDolor1Style} >
         {loremIpsumDolorSitAmetCon}
       </div>
     </div>

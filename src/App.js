@@ -5,7 +5,8 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Landing from "./pages/Landing";
+import Landing from "./pages/Landing1";
+import Face from "./pages/Landing";
 import MyComponent from "./pages/formtest";
 import LoginPage from "./pages/LoginPage";
 import Formulario from "./pages/Formulario";
@@ -50,6 +51,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Landing />} />
+      <Route path="/face" element={<Face />} />
       <Route path="/formtest" element={<MyComponent />} />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/formulario" element={<Formulario />} />

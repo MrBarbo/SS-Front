@@ -46,11 +46,21 @@ const Prefab = () => {
       />
       <div className="who-we-are-group">
         <WhoWeAre
-          loremIpsumDolorSitAmet="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
-          consecteturAdipiscing="tempor incididunt ut labore et dolore magna aliqua."
-          elitSedDoEiusmodTempor=" Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          loremIpsumDolorSitAmet=""
+          consecteturAdipiscing="SuperSite"
+          elitSedDoEiusmodTempor=" es un sistema el cual permite, a través de un formulario,  que el cliente obtenga una página web funcional y adaptada a sus necesidades."
           image="/image1@2x.png"
-          loremIpsumDolorSitAmetCon="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          loremIpsumDolorSitAmetCon={
+            <>
+              En el mundo de hoy, cada vez más digitalizado, tener una presencia en línea se ha convertido en necesidad fundamental para empresas, 
+              organizaciones y profesionales de todos los rubros. Sin embargo, 
+              la creación y diseño de páginas web personalizadas puede ser un proceso costoso, complejo y que consume mucho tiempo, 
+              además de necesitar especialistas calificados que no siempre están disponibles. 
+              Este proyecto surge como respuesta a la demanda creciente de soluciones eficaces que permitan a las personas y organizaciones establecer su presencia en línea de manera efectiva.
+              <br />              
+              Mediante el uso de inteligencia artificial, el sistema puede proveer a la página de características que requiera el usuario, como ser colores, imágenes o texto.
+            </>
+          }
           whoWeAreFlex="unset"
           whoWeAreWidth="unset"
           whoWeAreAlignSelf="stretch"
@@ -84,21 +94,34 @@ const Prefab = () => {
           loremIpsumDolorDisplay="inline-block"
         />
         <OurValues
-          loremIpsumDolorSitAmetCon="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-          loremIpsumDolorSitAmetCon1="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conseq"
-          loremIpsumDolorSitAmetCon2="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          loremIpsumDolorSitAmetCon="Ayudar a los individuos, empresas y organizaciones a prosperar mediante la posibilidad de aprovechar las capacidades del internet, para que puedan construir innovación y reducir su impacto ambiental."
+          loremIpsumDolorSitAmetCon1="Ser el principal aliado tecnológico de los individuos y organizaciones que trabajan para cambiar el mundo."
+          loremIpsumDolorSitAmetCon2={
+            <>
+            <li>
+                  Utilizar inteligencia artificial para automatizar el proceso
+                  de diseño y personalización de las páginas web, incluyendo
+                  elementos como colores, imágenes y texto.
+                </li>
+                <li>
+                  Generar un sistema que sea amigable a todos los tipos de
+                  usuario, ya sean empresas, organizaciones gubernamentales o no
+                  gubernamentales e incluso personas particulares.
+                </li>
+                </>
+          }
           ourValuesWidth="unset"
           ourValuesAlignSelf="stretch"
         />
         <WhatWeOffer
-          serviceNameText="Service Name"
-          serviceDescriptionText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          serviceName="Service Name"
-          serviceDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          serviceSubtitleText="Service Name"
-          serviceDescriptionLongTex="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          serviceImageUrl="Service Name"
-          serviceDescriptionLongTex2="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          serviceNameText="Pagina Web"
+          serviceDescriptionText="Tras rellenar un formulario con la información necesaria, podrá obtener su página web con dominio personalizado."
+          serviceName="GenAI"
+          serviceDescription="Contamos con Inteligencia Artificial Generativa integrada para la generación de texto e imágenes para facilitar el trabajo."
+          serviceSubtitleText="Personalización"
+          serviceDescriptionLongTex="Luego de adquirir una membresía premium podrá acceder a un servicio dedicado para la personalización de su sitio web."
+          serviceImageUrl="Insights"
+          serviceDescriptionLongTex2="El sitio web recopila información relevante para el cliente para ayudar en la toma de decisiones."
           whatWeOfferAlignSelf="stretch"
           servicesBorder="1px solid var(--primary)"
           servicesWidth="466px"

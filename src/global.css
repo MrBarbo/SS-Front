@@ -17,8 +17,8 @@ body {
   --font-roboto: Roboto;
   --font-poppins: Poppins;
   --font-fira-code: "Fira Code";
-  --font-inter: Inter;
-  --font-inherit: inherit;
+--font-inter: Inter;
+  --font-inherit: inherit;  
 
   /* font sizes */
   --font-size-xl: 20px;
@@ -26,7 +26,7 @@ body {
   --font-size-5xl: 24px;
   --font-size-13xl: 32px;
   --font-size-base: 16px;  
-  --font-size-xs: 12px;
+--font-size-xs: 12px;
   --font-size-29xl: 48px;
 
   /* Colors */
@@ -42,10 +42,10 @@ body {
   --color-seagreen-200: #26793c;
   --color-darkolivegreen-100: #1c5e2d;
   --color-darkolivegreen-200: #174b26;
-  --color-darkgray-100: rgba(171, 178, 191, 0.08);
-  --color-darkgray: rgba(171, 178, 191, 0.4);    
+--color-darkgray-100: rgba(171, 178, 191, 0.08);
+  --color-darkgray: rgba(171, 178, 191, 0.4);  
   --background: #282c33;
-  --primary1: #98c379;
+--primary1: #98c379;
   --gray: #abb2bf;
   --primary: #98c379;
   --white: #fff;
@@ -58,11 +58,11 @@ body {
 
   /* Gaps */
   --gap-3xs: 10px;
-  --gap-6xl: 25px;
+--gap-6xl: 25px;
   --gap-8xl: 27px;
   --gap-61xl: 80px;
   --gap-5xs: 8px;
-  --gap-6xs: 7px;
+--gap-6xs: 7px;
   --gap-9xs: 4px;
   --gap-24xl: 43px;
   --gap-8xs: 5px;
@@ -71,12 +71,12 @@ body {
   --gap-xs: 12px;
   --gap-base: 16px;
   --gap-4xs: 9px;
-  --gap-7xs: 6px;
+--gap-7xs: 6px;
   --gap-mid: 17px;
   --gap-5xl: 24px;
   --gap-12xl: 31px;
   --gap-11xl: 30px;
-  --gap-41xl: 60px;
+--gap-41xl: 60px;
 
   /* Paddings */
   --padding-2xs: 11px;
@@ -88,20 +88,20 @@ body {
   --padding-35xl: 54px;
   --padding-5xs: 8px;
   --padding-9xs: 4px;  
-  --padding-8xs: 5px;
+--padding-8xs: 5px;
   --padding-10xs: 3px;
   --padding-12xs: 1px;
   --padding-11xs: 2px;
   --padding-13xl: 32px;
   --padding-15xl: 34px;
-  --padding-sm: 14px;
+--padding-sm: 14px;
   --padding-base: 16px;
-  --padding-95xl: 114px;
+--padding-95xl: 114px;
   --padding-6xs: 7px;
   --padding-28xl: 47px;  
   --padding-mini: 15px;
   --padding-34xl: 53px;  
-  --padding-182xl: 201px;
+--padding-182xl: 201px;
   --padding-50xl: 69px;  
 
   /* Border radiuses */

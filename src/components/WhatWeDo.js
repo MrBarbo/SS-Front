@@ -21,15 +21,15 @@ const WhatWeDo = ({
   whatWeDoAlignSelf,
   whatWeDoWidth,
   frameDivCursor,
-  productWidth,
-  productFlex,
+  projectWidth,
+  projectFlex,
   frameDivCursor1,
   frameDivCursor2,
-  productWidth1,
-  productFlex1,
+  projectWidth1,
+  projectFlex1,
   frameDivCursor3,
-  productWidth2,
-  productFlex2,
+  projectWidth2,
+  projectFlex2,
   frameDivCursor4,
   onFrameContainer6Click,
   onFrameContainer8Click,
@@ -52,10 +52,10 @@ const WhatWeDo = ({
 
   const property1DefaultStyle = useMemo(() => {
     return {
-      width: productWidth,
-      flex: productFlex,
+      width: projectWidth,
+      flex: projectFlex,
     };
-  }, [productWidth, productFlex]);
+  }, [projectWidth, projectFlex]);
 
   const frameDiv7Style1 = useMemo(() => {
     return {
@@ -71,10 +71,10 @@ const WhatWeDo = ({
 
   const property1DefaultStyle1 = useMemo(() => {
     return {
-      width: productWidth1,
-      flex: productFlex1,
+      width: projectWidth1,
+      flex: projectFlex1,
     };
-  }, [productWidth1, productFlex1]);
+  }, [projectWidth1, projectFlex1]);
 
   const frameDiv7Style3 = useMemo(() => {
     return {
@@ -84,10 +84,10 @@ const WhatWeDo = ({
 
   const property1DefaultStyle2 = useMemo(() => {
     return {
-      width: productWidth2,
-      flex: productFlex2,
+      width: projectWidth2,
+      flex: projectFlex2,
     };
-  }, [productWidth2, productFlex2]);
+  }, [projectWidth2, projectFlex2]);
 
   const frameDiv7Style4 = useMemo(() => {
     return {

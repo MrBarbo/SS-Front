@@ -6,6 +6,9 @@ import WhatWeOffer from "../components/WhatWeOffer";
 import WhatWeHave from "../components/WhatWeHave";
 import WhatWeDo from "../components/WhatWeDo";
 import Footer from "../components/Footer";
+import Lorem from 'react-lorem-component';
+import { LoremIpsum, Avatar } from 'react-lorem-ipsum';
+import { loremIpsum, name, surname, fullname, username } from 'react-lorem-ipsum';
 import "./Prefab.css";
 
 const Prefab = () => {
@@ -37,20 +40,32 @@ const Prefab = () => {
       <Header
         showFrameDiv
         showHeaderLink
-        headerAlignItems="flex-end"
-        headerPadding="var(--padding-13xl) var(--padding-5xs) var(--padding-5xs) var(--padding-15xl)"
-        frameDivJustifyContent="flex-start"
-        frameDivGap="43px"
         headerLinkCursor="pointer"
         onHeaderLinkContainerClick={onHeaderLinkContainerClick}
       />
       <div className="who-we-are-group">
         <WhoWeAre
-          loremIpsumDolorSitAmet="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
-          consecteturAdipiscing="tempor incididunt ut labore et dolore magna aliqua."
-          elitSedDoEiusmodTempor=" Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          loremIpsumDolorSitAmet={
+            
+              <LoremIpsum   p={1} avgWordsPerSentence={6} avgSentencesPerParagraph={1}/>
+              
+            }
+          consecteturAdipiscing={
+            
+            <LoremIpsum   p={1} avgWordsPerSentence={2} avgSentencesPerParagraph={1}/>
+              
+            }
+          elitSedDoEiusmodTempor={
+            
+            <LoremIpsum   p={1} avgWordsPerSentence={7} avgSentencesPerParagraph={1}/>
+            
+            }
           image="/image1@2x.png"
-          loremIpsumDolorSitAmetCon="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          loremIpsumDolorSitAmetCon={
+            
+            <LoremIpsum   p={1}/>
+            
+            }
           whoWeAreFlex="unset"
           whoWeAreWidth="unset"
           whoWeAreAlignSelf="stretch"
@@ -84,21 +99,31 @@ const Prefab = () => {
           loremIpsumDolorDisplay="inline-block"
         />
         <OurValues
-          loremIpsumDolorSitAmetCon="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-          loremIpsumDolorSitAmetCon1="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conseq"
-          loremIpsumDolorSitAmetCon2="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-          ourValuesWidth="unset"
-          ourValuesAlignSelf="stretch"
+          propMis={
+            <>
+              <LoremIpsum   p={2}/>
+            </>  
+          }
+          propVis={
+            <>
+              <LoremIpsum   p={1}/>
+            </>  
+          }
+          propObj={
+            <>
+              <LoremIpsum   p={3}/>
+            </>  
+          }
         />
         <WhatWeOffer
-          serviceNameText="Service Name"
-          serviceDescriptionText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          serviceName="Service Name"
-          serviceDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          serviceSubtitleText="Service Name"
-          serviceDescriptionLongTex="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          serviceImageUrl="Service Name"
-          serviceDescriptionLongTex2="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          serviceNameText={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={1}/>}
+          serviceDescriptionText={<LoremIpsum   p={1}/>}
+          serviceName={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={1}/>}
+          serviceDescription={<LoremIpsum   p={1}/>}
+          serviceSubtitleText={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={1}/>}
+          serviceDescriptionLongTex={<LoremIpsum   p={1}/>}
+          serviceImageUrl={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={1}/>}
+          serviceDescriptionLongTex2={<LoremIpsum   p={1}/>}
           whatWeOfferAlignSelf="stretch"
           servicesBorder="1px solid var(--primary)"
           servicesWidth="466px"
@@ -160,18 +185,23 @@ const Prefab = () => {
         />
         <WhatWeHave
           rectangle22="/rectangle-22@2x.png"
-          produName="Nombre de mi Posible producto "
-          productDesc="Esta sería la descripción de mi producto, si tan solo tuviera uno"
+          produName={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={0}/>}
+          productDesc={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={1}/>}
           rectangle221="/rectangle-225@2x.png"
-          produName1="Produ Name"
+          produName1={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={0}/>}
+          productDesc1={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={1}/>}
           rectangle222="/rectangle-227@2x.png"
-          produName2="Produ Name"
+          produName2={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={0}/>}
+          productDesc2={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={1}/>}
           rectangle223="/rectangle-22@2x.png"
-          produName3="Produ Name"
+          produName3={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={0}/>}
+          productDesc3={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={1}/>}
           rectangle224="/rectangle-225@2x.png"
-          produName4="Produ Name"
+          produName4={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={0}/>}
+          productDesc4={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={1}/>}
           rectangle225="/rectangle-227@2x.png"
-          produName5="Produ Name"
+          produName5={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={0}/>}
+          productDesc5={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={1}/>}
           whatWeHaveWidth="unset"
           whatWeHaveAlignSelf="stretch"
           frameDivCursor="unset"
@@ -188,18 +218,18 @@ const Prefab = () => {
         />
         <WhatWeDo
           rectangle22="/rectangle-22@2x.png"
-          projectName="Nombre de mi Posible proyecto "
-          projectDesc="Esta sería la descripción de mi proyecto, si tan solo tuviera uno"
+          projectName={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={0}/>}
+          projectDesc={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={1}/>}
           rectangle221="/rectangle-225@2x.png"
-          projectName1="project Name"
+          projectName1={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={0}/>}
           rectangle222="/rectangle-227@2x.png"
-          projectName2="project Name"
+          projectName2={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={0}/>}
           rectangle223="/rectangle-22@2x.png"
-          projectName3="project Name"
+          projectName3={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={0}/>}
           rectangle224="/rectangle-225@2x.png"
-          projectName4="project Name"
+          projectName4={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={0}/>}
           rectangle225="/rectangle-227@2x.png"
-          projectName5="project Name"
+          projectName5={<LoremIpsum   p={1} avgWordsPerSentence={0} avgSentencesPerParagraph={0}/>}
           whatWeDoWidth="unset"
           whatWeDoAlignSelf="stretch"
           frameDivCursor="unset"

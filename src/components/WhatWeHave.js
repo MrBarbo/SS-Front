@@ -9,14 +9,23 @@ const WhatWeHave = ({
   productDesc,
   rectangle221,
   produName1,
-  rectangle222,
+  productDesc1,
   produName2,
-  rectangle223,
+  productDesc2,
   produName3,
-  rectangle224,
+  productDesc3,
   produName4,
-  rectangle225,
+  productDesc4,
   produName5,
+  productDesc5,
+  rectangle222,
+  
+  rectangle223,
+  
+  rectangle224,
+  
+  rectangle225,
+  
   whatWeHaveWidth,
   whatWeHaveAlignSelf,
   frameDivCursor,
@@ -116,7 +125,8 @@ const WhatWeHave = ({
         />
         <Property1Default1
           rectangle22="/rectangle-222@2x.png"
-          produName="Produ Name"
+          produName={produName1}
+          productDesc={productDesc1}
           property1DefaultWidth="332.6px"
           property1DefaultFlex="unset"
           rectangleIconWidth="unset"
@@ -128,7 +138,8 @@ const WhatWeHave = ({
         />
         <Property1Default1
           rectangle22="/rectangle-223@2x.png"
-          produName="Produ Name"
+          produName={produName2}
+          productDesc={productDesc2}
           property1DefaultWidth="332.6px"
           property1DefaultFlex="unset"
           rectangleIconWidth="unset"
@@ -140,7 +151,8 @@ const WhatWeHave = ({
         />
         <Property1Default1
           rectangle22="/rectangle-22@2x.png"
-          produName="Produ Name"
+          produName={produName3}
+          productDesc={productDesc3}
           property1DefaultWidth="332.6px"
           property1DefaultFlex="unset"
           rectangleIconWidth="unset"
@@ -152,7 +164,8 @@ const WhatWeHave = ({
         />
         <Property1Default1
           rectangle22="/rectangle-222@2x.png"
-          produName="Produ Name"
+          produName={produName4}
+          productDesc={productDesc4}
           property1DefaultWidth="332.6px"
           property1DefaultFlex="unset"
           rectangleIconWidth="unset"
@@ -164,7 +177,8 @@ const WhatWeHave = ({
         />
         <Property1Default1
           rectangle22="/rectangle-223@2x.png"
-          produName="Produ Name"
+          produName={produName5}
+          productDesc={productDesc5}
           property1DefaultWidth="332.6px"
           property1DefaultFlex="unset"
           rectangleIconWidth="unset"

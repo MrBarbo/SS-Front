@@ -14,10 +14,7 @@ const Container = () => {
   return (
     <div className="what-we-have1">
       <H2
-        loremIpsumDolorSitAmet="Products"
-        h2AlignSelf="stretch"
-        h2ZIndex="unset"
-        h2JustifyContent="flex-start"
+        propHeader="Products"        
       />
       <ProductFormContainer />
     </div>

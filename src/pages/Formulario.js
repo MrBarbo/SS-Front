@@ -52,12 +52,10 @@ const Formulario = () => {
     <div className="formulario">
       <Header
         showFrameDiv={false}
-        showHeaderLink
-        headerAlignItems="flex-end"
-        headerPadding="var(--padding-13xl) 0px var(--padding-5xs) 0px"
+        showHeaderLink        
         frameDivJustifyContent="flex-start"
         frameDivGap="43px"
-        headerLinkCursor="unset"
+        headerLinkCursor="pointer"
       />       
       <main className="input-parent">
         <Input
@@ -73,10 +71,10 @@ const Formulario = () => {
         <Input
           inputPlaceholder="Description"
           showH2
-          inputWidth="unset"
-          inputAlignSelf="stretch"
-          h2AlignSelf="stretch"
-          frameDivBoxSizing="border-box"
+          inputLabel
+          inputId
+          inputName          
+          
           inputTextHereFontSize="unset"
           inputTextHereFontFamily="unset"
           inputTextHereColor="unset"

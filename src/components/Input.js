@@ -12,35 +12,20 @@ const Input = ({
   inputLabel,
   inputType,
   inputPlaceholder,  
-  inputWidth,
-  inputAlignSelf,
-  h2AlignSelf,
+  
   frameDivBoxSizing,
   inputTextHereColor, 
   inputTextHereDisplay,
 }) => {
-  const inputStyle = useMemo(() => {
-    return {
-      width: inputWidth,
-      alignSelf: inputAlignSelf,      
-    };
-  }, [inputWidth, inputAlignSelf]);
+  
 
-  const h2Style = useMemo(() => {
-    return {
-      alignSelf: h2AlignSelf,
-    };
-  }, [h2AlignSelf]);
+  
 
-  const frameDiv8Style = useMemo(() => {
-    return {      
-      boxSizing: frameDivBoxSizing,
-    };
-  }, [frameDivBoxSizing]);
+  
 
   const inputTextHereStyle = useMemo(() => {
     return {      
-      inputTextHereColor: common.white,      
+      inputTextHereColor: common.black,      
       display: inputTextHereDisplay,
     };
   }, [
@@ -49,12 +34,11 @@ const Input = ({
   ]);
 
   return (
-    <div className="input" style={inputStyle}>
+    <div className="input">
       <H2
-        loremIpsumDolorSitAmet={inputPlaceholder}        
-        h2JustifyContent="flex-start"
+        propHeader={inputPlaceholder}                
       />
-      <div className="input-text-here-wrapper" style={frameDiv8Style}>
+      <div className="input-text-here-wrapper" >
         <div className="input-text-here" style={inputTextHereStyle}>
         <TextField          
           className="text"       

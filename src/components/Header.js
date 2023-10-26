@@ -4,92 +4,56 @@ import StateDefault from "./StateDefault";
 import "./Header.css";
 
 const Header = ({
-  showFrameDiv,
-  showHeaderLink,
-  headerAlignItems,
-  headerPadding,
-  frameDivJustifyContent,
-  frameDivGap,
-  headerLinkCursor,
+  showFrameDiv,    
   onHeaderLinkContainerClick,
 }) => {
-  const headerStyle = useMemo(() => {
-    return {
-      alignItems: headerAlignItems,
-      padding: headerPadding,
-    };
-  }, [headerAlignItems, headerPadding]);
-
-  const frameDiv10Style = useMemo(() => {
-    return {
-      justifyContent: frameDivJustifyContent,
-      gap: frameDivGap,
-    };
-  }, [frameDivJustifyContent, frameDivGap]);
-
-  const stateDefault1Style = useMemo(() => {
-    return {
-      cursor: headerLinkCursor,
-    };
-  }, [headerLinkCursor]);
-
+  
   return (
-    <div className="header" style={headerStyle}>
+    <div className="header">
       <div className="logo-group">
         <img className="logo-icon1" alt="" src="/logo1@2x.png" />
         <b className="supersite1">SuperSite</b>        
       </div>
       {showFrameDiv && (
-        <div className="header-link-parent" style={frameDiv10Style}>
+        <div className="header-link-parent">
           <StateDefault1
-            inicio="Home"
-            stateDefaultFlex="1"
-            stateDefaultCursor="unset"
-            divColor="#34a853"
+            inicio="Home"            
+            divColor="var(--primary)"
             divFontWeight="500"
-            inicioColor="#fff"
-            inicioFontWeight="500"
+            inicioColor="var(--white)"
+            onHeaderLinkContainerClick="unset"
+            
           />
           <StateDefault1
             inicio="About us"
-            stateDefaultFlex="1"
-            stateDefaultCursor="unset"
-            divColor="#34a853"
+            stateDefaultFlex="1"            
+            divColor="var(--primary)"
             divFontWeight="unset"
-            inicioColor="#abb2bf"
+            inicioColor="#var(--gray)"
             inicioFontWeight="unset"
           />
           <StateDefault1
             inicio="Services"
-            stateDefaultFlex="1"
-            stateDefaultCursor="unset"
-            divColor="#34a853"
+            divColor="var(--primary)"
             divFontWeight="unset"
-            inicioColor="#abb2bf"
-            inicioFontWeight="unset"
+            inicioColor="var(--gray)"
+            onHeaderLinkContainerClick="unset"
           />
           <StateDefault1
             inicio="Products"
-            stateDefaultFlex="1"
-            stateDefaultCursor="unset"
-            divColor="#34a853"
+            divColor="var(--primary)"
             divFontWeight="unset"
-            inicioColor="#abb2bf"
-            inicioFontWeight="unset"
+            inicioColor="var(--gray)"
+            onHeaderLinkContainerClick
           />
           <StateDefault1
             inicio="Projects"
-            stateDefaultFlex="1"
-            stateDefaultCursor="unset"
-            divColor="#34a853"
+            divColor="var(--primary)"
             divFontWeight="unset"
-            inicioColor="#abb2bf"
-            inicioFontWeight="unset"
+            inicioColor="var(--gray)"
+            onHeaderLinkContainerClick
           />
-          <StateDefault
-            stateDefaultFlex="1"
-            frameDivBackgroundColor="#1e1e1e"
-          />
+          <StateDefault/>
         </div>
       )}
     </div>

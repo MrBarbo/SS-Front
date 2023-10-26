@@ -47,5 +47,5 @@
   border: 2px dasehd var(--gray);
 }
 .service-block-shown:hover{
-  background: var( --color-mediumseagreen);
+  background: var( --primary-hover);
 }

@@ -5,8 +5,8 @@
   flex-direction: row;
   gap: var(--gap-6xl);
   flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-between;
+  align-items: stretch;
+  justify-content: space-around;
   padding: var(--padding-3xs) var(--padding-mini);
 }
 .what-we-have {

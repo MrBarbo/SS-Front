@@ -141,10 +141,7 @@ const WhoWeAre = ({
   return (
     <div className="who-we-are" style={whoWeAreStyle}>
       <H2
-        loremIpsumDolorSitAmet="¿Who we are?"
-        h2AlignSelf="unset"
-        h2ZIndex="unset"
-        h2JustifyContent="flex-start"
+        propHeader="¿Who we are?"        
       />
       <div className="lorem-ipsum-dolor-sit-amet-co-parent">
         <div className="lorem-ipsum-dolor-container">

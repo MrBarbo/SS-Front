@@ -97,10 +97,8 @@ const WhatWeHave = ({
   return (
     <div className="what-we-have" style={whatWeHaveStyle}>
       <H2
-        loremIpsumDolorSitAmet="Products"
-        h2AlignSelf="stretch"
-        h2ZIndex="unset"
-        h2JustifyContent="flex-start"
+        propHeader="Products"
+        
       />
       <div className="product-parent">
         <Property1Default1

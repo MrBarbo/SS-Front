@@ -12,6 +12,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  align-self: stretch;
   justify-content: flex-start;
   padding: var(--padding-28xl) 0px;
   box-sizing: border-box;

@@ -94,11 +94,11 @@ const Prefab = () => {
           loremIpsumDolorDisplay="inline-block"
         />
         <OurValues
-          loremIpsumDolorSitAmetCon="Ayudar a los individuos, empresas y organizaciones a prosperar mediante la posibilidad de aprovechar las capacidades del internet, para que puedan construir innovación y reducir su impacto ambiental."
-          loremIpsumDolorSitAmetCon1="Ser el principal aliado tecnológico de los individuos y organizaciones que trabajan para cambiar el mundo."
-          loremIpsumDolorSitAmetCon2={
+          propMis="Ayudar a los individuos, empresas y organizaciones a prosperar mediante la posibilidad de aprovechar las capacidades del internet, para que puedan construir innovación y reducir su impacto ambiental."
+          propVis="Ser el principal aliado tecnológico de los individuos y organizaciones que trabajan para cambiar el mundo."
+          propObj={
             <>
-            <li>
+             <li>
                   Utilizar inteligencia artificial para automatizar el proceso
                   de diseño y personalización de las páginas web, incluyendo
                   elementos como colores, imágenes y texto.
@@ -107,11 +107,9 @@ const Prefab = () => {
                   Generar un sistema que sea amigable a todos los tipos de
                   usuario, ya sean empresas, organizaciones gubernamentales o no
                   gubernamentales e incluso personas particulares.
-                </li>
-                </>
-          }
-          ourValuesWidth="unset"
-          ourValuesAlignSelf="stretch"
+              </li>
+            </>
+          }           
         />
         <WhatWeOffer
           serviceNameText="Pagina Web"
@@ -179,8 +177,8 @@ const Prefab = () => {
           serviceNameHeight="unset"
           serviceNameFlexShrink="unset"
           loremIpsumDolorAlignSelf="stretch"
-          loremIpsumDolorFontSize3="16px"
-        />
+          loremIpsumDolorFontSize3="16px"          
+        />        
         <WhatWeHave
           rectangle22="/rectangle-22@2x.png"
           produName="Nombre de mi Posible producto "

@@ -71,10 +71,11 @@
   color: var(--gray);
 }
 .our-values {
-  width: 1052px;
+  width: unset;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  align-self: stretch;
   justify-content: flex-start;
   gap: var(--gap-12xl);
   text-align: left;

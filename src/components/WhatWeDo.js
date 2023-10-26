@@ -98,10 +98,7 @@ const WhatWeDo = ({
   return (
     <div className="what-we-do" style={whatWeDoStyle}>
       <H2
-        loremIpsumDolorSitAmet="Projects"
-        h2AlignSelf="stretch"
-        h2ZIndex="unset"
-        h2JustifyContent="flex-start"
+        propHeader="Projects"        
       />
       <div className="project-group">
         <Property1Default

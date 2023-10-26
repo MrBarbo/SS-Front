@@ -3,44 +3,34 @@ import H2 from "./H2";
 import "./OurValues.css";
 
 const OurValues = ({
-  loremIpsumDolorSitAmetCon,
-  loremIpsumDolorSitAmetCon1,
-  loremIpsumDolorSitAmetCon2,
-  ourValuesWidth,
-  ourValuesAlignSelf,
+  propMis,
+  propVis, 
+  propObj,  
 }) => {
-  const ourValuesStyle = useMemo(() => {
-    return {
-      width: ourValuesWidth,
-      alignSelf: ourValuesAlignSelf,
-    };
-  }, [ourValuesWidth, ourValuesAlignSelf]);
+  
 
   return (
-    <div className="our-values" style={ourValuesStyle}>
+    <div className="our-values">
       <H2
-        loremIpsumDolorSitAmet="Our Values"
-        h2AlignSelf="unset"
-        h2ZIndex="6"
-        h2JustifyContent="flex-start"
+        propHeader="Our Values"        
       />
       <div className="titles">
         <div className="titles1">Mission</div>
       </div>
       <div className="lorem-ipsum-dolor-sit-amet-co">
-        <div className="lorem-ipsum-dolor5">{loremIpsumDolorSitAmetCon}</div>
+        <div className="lorem-ipsum-dolor5">{propMis}</div>
       </div>
       <div className="titles2">
         <div className="titles1">Vission</div>
       </div>
       <div className="lorem-ipsum-dolor-sit-amet-co1">
-        <div className="lorem-ipsum-dolor5">{loremIpsumDolorSitAmetCon1}</div>
+        <div className="lorem-ipsum-dolor5">{propVis}</div>
       </div>
       <div className="titles4">
-        <div className="titles1">Objetives</div>
+        <div className="titles1">Objectives</div>
       </div>
       <div className="lorem-ipsum-dolor-sit-amet-co2">
-        <div className="lorem-ipsum-dolor5">{loremIpsumDolorSitAmetCon2}</div>
+        <div className="lorem-ipsum-dolor5">{propObj}</div>
       </div>
     </div>
   );

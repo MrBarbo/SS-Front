@@ -6,8 +6,7 @@ const OurValues = ({
   propMis,
   propVis, 
   propObj,  
-}) => {
-  
+}) => {  
 
   return (
     <div className="our-values">

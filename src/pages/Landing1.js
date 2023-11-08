@@ -42,11 +42,11 @@ const Prefab = () => {
       />
       <div className="who-we-are-group">
         <WhoWeAre
-          loremIpsumDolorSitAmet=""
-          consecteturAdipiscing="SuperSite"
-          elitSedDoEiusmodTempor=" es un sistema el cual permite, a través de un formulario,  que el cliente obtenga una página web funcional y adaptada a sus necesidades."
+          textHeader=""
+          textHeaderColor="SuperSite"
+          textHeaderCont=" es un sistema el cual permite, a través de un formulario,  que el cliente obtenga una página web funcional y adaptada a sus necesidades."
           image="/image1@2x.png"
-          loremIpsumDolorSitAmetCon={
+          propParagraph={
             <>
               En el mundo de hoy, cada vez más digitalizado, tener una presencia en línea se ha convertido en necesidad fundamental para empresas, 
               organizaciones y profesionales de todos los rubros. Sin embargo, 
@@ -59,9 +59,7 @@ const Prefab = () => {
               Mediante el uso de inteligencia artificial, el sistema puede proveer a la página de características que requiera el usuario, como ser colores, imágenes o texto.
             </>
           }
-          whoWeAreFlex="unset"
-          whoWeAreWidth="unset"
-          whoWeAreAlignSelf="stretch"
+          
           h2JustifyContent="flex-start"
           loremIpsumDolorColor="#fff"
           consecteturAdipiscingColor="var(--primary)"

@@ -3,14 +3,13 @@ import H2 from "./H2";
 import "./WhoWeAre.css";
 
 const WhoWeAre = ({
-  loremIpsumDolorSitAmet,
-  consecteturAdipiscing,
-  elitSedDoEiusmodTempor,
+  textHeader,
+  textHeaderColor,
+  textHeaderCont,
   image,
-  loremIpsumDolorSitAmetCon,
-  whoWeAreFlex,
-  whoWeAreWidth,
-  whoWeAreAlignSelf,
+  propParagraph,
+
+  
   h2JustifyContent,
   loremIpsumDolorColor,
   consecteturAdipiscingColor,
@@ -40,14 +39,6 @@ const WhoWeAre = ({
   loremIpsumDolorTextAlign,
   loremIpsumDolorDisplay,
 }) => {
-  const whoWeAreStyle = useMemo(() => {
-    return {
-      flex: whoWeAreFlex,
-      width: whoWeAreWidth,
-      alignSelf: whoWeAreAlignSelf,
-    };
-  }, [whoWeAreFlex, whoWeAreWidth, whoWeAreAlignSelf]);
-
   const h2Style = useMemo(() => {
     return {
       justifyContent: h2JustifyContent,
@@ -139,20 +130,20 @@ const WhoWeAre = ({
   ]);
 
   return (
-    <div className="who-we-are" style={whoWeAreStyle}>
+    <div className="who-we-are">
       <H2
         propHeader="¿Who we are?"        
       />
       <div className="lorem-ipsum-dolor-sit-amet-co-parent">
         <div className="lorem-ipsum-dolor-container">
-          <span style={loremIpsumDolorStyle}>{loremIpsumDolorSitAmet}</span>
+          <span style={loremIpsumDolorStyle}>{textHeader}</span>
           <span
             className="consectetur-adipiscing"
             style={consecteturAdipiscingStyle}
           >
-            {consecteturAdipiscing}
+            {textHeaderColor}
           </span>
-          <span style={elitSedDoStyle}>{elitSedDoEiusmodTempor}</span>
+          <span style={elitSedDoStyle}>{textHeaderCont}</span>
         </div>
         <div className="image-wrapper" style={frameDiv11Style}>
           <img
@@ -164,7 +155,7 @@ const WhoWeAre = ({
         </div>
       </div>
       <div className="lorem-ipsum-dolor8" style={loremIpsumDolor1Style} >
-        {loremIpsumDolorSitAmetCon}
+        {propParagraph}
       </div>
     </div>
   );

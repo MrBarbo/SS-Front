@@ -4,27 +4,27 @@ import Property1Default1 from "./Property1Default1";
 import "./WhatWeHave.css";
 
 const WhatWeHave = ({
-  rectangle22,
+  prodPhot,
   produName,
   productDesc,
-  rectangle221,
+  prodPhot1,
   produName1,
   productDesc1,
+  prodPhot2,
   produName2,
   productDesc2,
+  prodPhot3,
   produName3,
   productDesc3,
+  prodPhot4,
   produName4,
   productDesc4,
+  prodPhot5,
   produName5,
   productDesc5,
-  rectangle222,
-  
-  rectangle223,
-  
-  rectangle224,
-  
-  rectangle225,
+    
+    
+    
   
   whatWeHaveWidth,
   whatWeHaveAlignSelf,

@@ -4,14 +4,14 @@ import StateHoverTypeForm from "./StateHoverTypeForm";
 import "./WhatWeOffer.css";
 
 const WhatWeOffer = ({
-  serviceNameText,
-  serviceDescriptionText,
   serviceName,
-  serviceDescription,
-  serviceSubtitleText,
-  serviceDescriptionLongTex,
-  serviceImageUrl,
-  serviceDescriptionLongTex2,  
+  serviceDesc,
+  serviceName1,
+  serviceDesc1,
+  serviceName2,
+  serviceDesc2,
+  serviceName3,
+  serviceDesc3,
 }) => {
   
   return (
@@ -21,21 +21,21 @@ const WhatWeOffer = ({
       />
       <div className="services-parent">
         <StateHoverTypeForm
-          prop={serviceNameText}
-          addService={serviceDescriptionText}          
-        />
-        <StateHoverTypeForm
           prop={serviceName}
-          addService={serviceDescription}          
+          addService={serviceDesc}          
         />
         <StateHoverTypeForm
-          prop={serviceSubtitleText}
-          addService={serviceDescriptionLongTex}
+          prop={serviceName1}
+          addService={serviceDesc1}          
+        />
+        <StateHoverTypeForm
+          prop={serviceName2}
+          addService={serviceDesc2}
           
         />
         <StateHoverTypeForm
-          prop={serviceImageUrl}
-          addService={serviceDescriptionLongTex2}          
+          prop={serviceName3}
+          addService={serviceDesc3}          
         />
       </div>
     </section>

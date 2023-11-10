@@ -5,174 +5,62 @@ import "./WhatWeDo.css";
 import WhatWeHave from "./WhatWeHave";
 
 const WhatWeDo = ({
-  rectangle22,
-  projectName,
-  projectDesc,
-  rectangle221,
-  projectName1,
-  rectangle222,
-  projectName2,
-  rectangle223,
-  projectName3,
-  rectangle224,
-  projectName4,
-  rectangle225,
-  projectName5,
-  whatWeDoAlignSelf,
-  whatWeDoWidth,
-  frameDivCursor,
-  projectWidth,
-  projectFlex,
-  frameDivCursor1,
-  frameDivCursor2,
-  projectWidth1,
-  projectFlex1,
-  frameDivCursor3,
-  projectWidth2,
-  projectFlex2,
-  frameDivCursor4,
-  onFrameContainer6Click,
-  onFrameContainer8Click,
-  onFrameContainer10Click,
-  onFrameContainer14Click,
-  onFrameContainer16Click,
+  projFoto,
+  projName,
+  projDesc,
+  projFoto1,
+  projName1,
+  projDesc1,
+  projFoto2,
+  projName2,
+  projDesc2,
+  projFoto3,
+  projName3,
+  projDesc3,
+  projFoto4,
+  projName4,
+  projDesc4,
+  projFoto5,
+  projName5,
+  projDesc5,
 }) => {
-  const whatWeDoStyle = useMemo(() => {
-    return {
-      width: whatWeDoWidth,
-      alignSelf: whatWeDoAlignSelf,
-    };
-  }, [whatWeDoAlignSelf]);
 
-  const frameDiv7Style = useMemo(() => {
-    return {
-      cursor: frameDivCursor,
-    };
-  }, [frameDivCursor]);
-
-  const property1DefaultStyle = useMemo(() => {
-    return {
-      width: projectWidth,
-      flex: projectFlex,
-    };
-  }, [projectWidth, projectFlex]);
-
-  const frameDiv7Style1 = useMemo(() => {
-    return {
-      cursor: frameDivCursor1,
-    };
-  }, [frameDivCursor1]);
-
-  const frameDiv7Style2 = useMemo(() => {
-    return {
-      cursor: frameDivCursor2,
-    };
-  }, [frameDivCursor2]);
-
-  const property1DefaultStyle1 = useMemo(() => {
-    return {
-      width: projectWidth1,
-      flex: projectFlex1,
-    };
-  }, [projectWidth1, projectFlex1]);
-
-  const frameDiv7Style3 = useMemo(() => {
-    return {
-      cursor: frameDivCursor3,
-    };
-  }, [frameDivCursor3]);
-
-  const property1DefaultStyle2 = useMemo(() => {
-    return {
-      width: projectWidth2,
-      flex: projectFlex2,
-    };
-  }, [projectWidth2, projectFlex2]);
-
-  const frameDiv7Style4 = useMemo(() => {
-    return {
-      cursor: frameDivCursor4,
-    };
-  }, [frameDivCursor4]);
 
   return (
-    <div className="what-we-do" style={whatWeDoStyle}>
+    <div className="what-we-do">
       <H2
         propHeader="Projects"        
       />
       <div className="project-group">
         <Property1Default
-          rectangle22="/rectangle-22@2x.png"
-          projectName={projectName}
-          projectDesc={projectDesc}
-          property1DefaultWidth="332.6px"
-          property1DefaultFlex="unset"
-          rectangleIconWidth="unset"
-          rectangleIconAlignSelf="stretch"
-          rectangleIconMaxWidth="100%"
-          rectangleIconOverflow="hidden"
-          rectangleIconFlexShrink="0"
-          frameDivCursor="unset"        
+          projFoto={projFoto}
+          projName={projName}
+          projDesc={projDesc}                 
         />
         <Property1Default
-          rectangle22="/rectangle-22@2x.png"
-          projectName="Project Name"
-          property1DefaultWidth="332.6px"
-          property1DefaultFlex="unset"
-          rectangleIconWidth="unset"
-          rectangleIconAlignSelf="stretch"
-          rectangleIconMaxWidth="100%"
-          rectangleIconOverflow="hidden"
-          rectangleIconFlexShrink="0"
-          frameDivCursor="unset"        
+          projFoto={projFoto1}
+          projName={projName1}
+          projDesc={projDesc1}     
         />
         <Property1Default
-          rectangle22="/rectangle-22@2x.png"
-          projectName="Project Name"
-          property1DefaultWidth="332.6px"
-          property1DefaultFlex="unset"
-          rectangleIconWidth="unset"
-          rectangleIconAlignSelf="stretch"
-          rectangleIconMaxWidth="100%"
-          rectangleIconOverflow="hidden"
-          rectangleIconFlexShrink="0"
-          frameDivCursor="unset"        
+          projFoto={projFoto2}
+          projName={projName2}
+          projDesc={projDesc2}
         />
         <Property1Default
-          rectangle22="/rectangle-22@2x.png"
-          projectName="Project Name"
-          property1DefaultWidth="332.6px"
-          property1DefaultFlex="unset"
-          rectangleIconWidth="unset"
-          rectangleIconAlignSelf="stretch"
-          rectangleIconMaxWidth="100%"
-          rectangleIconOverflow="hidden"
-          rectangleIconFlexShrink="0"
-          frameDivCursor="unset"        
+          projFoto={projFoto3}
+          projName={projName3}
+          projDesc={projDesc3}
         />
         <Property1Default
-          rectangle22="/rectangle-22@2x.png"
-          projectName="Project Name"
-          property1DefaultWidth="332.6px"
-          property1DefaultFlex="unset"
-          rectangleIconWidth="unset"
-          rectangleIconAlignSelf="stretch"
-          rectangleIconMaxWidth="100%"
-          rectangleIconOverflow="hidden"
-          rectangleIconFlexShrink="0"
-          frameDivCursor="unset"        
+          projFoto={projFoto4}
+          projName={projName4}
+          projDesc={projDesc4} 
         />
         <Property1Default
-          rectangle22="/rectangle-22@2x.png"
-          projectName="Project Name"
-          property1DefaultWidth="332.6px"
-          property1DefaultFlex="unset"
-          rectangleIconWidth="unset"
-          rectangleIconAlignSelf="stretch"
-          rectangleIconMaxWidth="100%"
-          rectangleIconOverflow="hidden"
-          rectangleIconFlexShrink="0"
-          frameDivCursor="unset"        
+          projFoto={projFoto5}
+          projName={projName5}
+          projDesc={projDesc5}
         />
       </div>
     </div>

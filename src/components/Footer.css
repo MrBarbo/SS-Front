@@ -62,7 +62,7 @@
   cursor: pointer;
 }
 .email-parent {
-  align-self: stretch;
+  align-self: unset;
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -94,7 +94,8 @@
 }
 .frame-parent {
   align-self: stretch;
-  flex: 1;
+  flex: unset;
+  height: 119px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -113,4 +114,5 @@
   color: var(--white);
   font-family: var(--font-fira-code);
   align-self: stretch;
+  height: unset;
 }

@@ -1,8 +1,12 @@
 .property-1default-child {
   position: relative;
-  width: 330.6px;
+  width: unset;
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
   height: 201px;
   object-fit: cover;
+  flex-shrink: 0;
 }
 .project {
   position: relative;
@@ -58,6 +62,8 @@
 .property-1default {
   border: 1px solid var(--gray);
   display: flex;
+  width: 332.6px;
+  flex: unset;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;

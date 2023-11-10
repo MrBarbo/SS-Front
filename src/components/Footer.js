@@ -2,43 +2,20 @@ import { useMemo } from "react";
 import "./Footer.css";
 
 const Footer = ({
-  iconId,
-  iconTextId,
-  imageIconId,
-  footerHeight,
-  frameDivFlex,
-  frameDivHeight,
-  frameDivAlignSelf,
-  frameDivJustifyContent,
+  socialIcon,
+  socialIcon1,
+  socialIcon2,
+  socialIcon3,
+
   onEmailIconClick,
   onLinkedinIconClick,
   onInstagramIconClick,
   onGithubIconClick,
 }) => {
-  const footerStyle = useMemo(() => {
-    return {
-      height: footerHeight,
-    };
-  }, [footerHeight]);
-
-  const frameDivStyle = useMemo(() => {
-    return {
-      flex: frameDivFlex,
-      height: frameDivHeight,
-    };
-  }, [frameDivFlex, frameDivHeight]);
-
-  const frameDiv1Style = useMemo(() => {
-    return {
-      alignSelf: frameDivAlignSelf,
-      justifyContent: frameDivJustifyContent,
-    };
-  }, [frameDivAlignSelf, frameDivJustifyContent]);
-
   return (
-    <div className="footer" style={footerStyle}>
+    <div className="footer" >
       <div className="footer-child" />
-      <div className="frame-parent" style={frameDivStyle}>
+      <div className="frame-parent" >
         <div className="frame-group">
           <div className="frame-container">
             <div className="frame-wrapper">
@@ -51,29 +28,29 @@ const Footer = ({
           </div>
           <div className="socials-parent">
             <div className="socials">Socials</div>
-            <div className="email-parent" style={frameDiv1Style}>
+            <div className="email-parent">
               <img
                 className="email-icon"
                 alt=""
-                src="/email1.svg"
+                src={socialIcon3}
                 onClick={onEmailIconClick}
               />
               <img
                 className="email-icon"
                 alt=""
-                src={iconId}
+                src={socialIcon}
                 onClick={onLinkedinIconClick}
               />
               <img
                 className="instagram-icon"
                 alt=""
-                src={iconTextId}
+                src={socialIcon1}
                 onClick={onInstagramIconClick}
               />
               <img
                 className="email-icon"
                 alt=""
-                src={imageIconId}
+                src={socialIcon2}
                 onClick={onGithubIconClick}
               />
             </div>

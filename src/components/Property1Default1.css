@@ -1,6 +1,10 @@
 .property-1default-item {
   position: relative;
-  width: 330.6px;
+  width: unset;
+  max-width: 100%;
+  align-self: stretch;
+  overflow: hidden;
+  flex-shrink: 0;
   height: 201px;
   object-fit: cover;
 }
@@ -33,6 +37,8 @@
 .property-1default1 {
   border: 1px solid var(--gray);
   display: flex;
+  width: 332.6px;
+  flex: unset;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;

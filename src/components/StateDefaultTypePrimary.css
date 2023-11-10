@@ -1,9 +1,16 @@
 .go {
   position: relative;
   font-weight: 500;
+  font-size: var(--font-size-base);
+  text-align: left;
+  flex: unset;
 }
 .statedefault-typeprimary {
   border: 1px solid var(--primary);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: unset;
+  width: unset;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -13,6 +20,7 @@
   font-size: var(--font-size-base);
   color: var(--white);
   font-family: var(--font-fira-code);
+  cursor: pointer;
 }
 
 .statedefault-typeprimary:hover{

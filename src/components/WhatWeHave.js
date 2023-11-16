@@ -23,7 +23,7 @@ const WhatWeHave = ({
   produName5,
   productDesc5,
   
-  onFrameContainer6Click,
+  onClickEvent,
   onFrameContainer8Click,
   onFrameContainer10Click,
   onFrameContainer14Click,
@@ -39,7 +39,8 @@ const WhatWeHave = ({
         <Property1Default1
           prodPhoto={prodPhot}
           produName={produName}
-          productDesc={productDesc}          
+          productDesc={productDesc}  
+          onClickEvent={onClickEvent}        
         />
         <Property1Default1
           prodPhoto={prodPhot1}

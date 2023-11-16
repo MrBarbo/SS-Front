@@ -7,7 +7,7 @@ const Property1Default1 = ({
   produName,
   productDesc,  
 
-  onFrameContainer6Click,
+  onClickEvent,
 }) => {
 
   return (
@@ -23,11 +23,11 @@ const Property1Default1 = ({
         </div>
         <div
           className="button-container"          
-          onClick={onFrameContainer6Click}
+          onClick="unset"
         >
           <StateDefaultTypePrimary
             go={`Go <~>`}
-            goClick= "unset"
+            goClick= {onClickEvent}
           />
         </div>
       </div>

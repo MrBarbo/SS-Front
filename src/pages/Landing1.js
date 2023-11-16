@@ -6,9 +6,16 @@ import WhatWeOffer from "../components/WhatWeOffer";
 import WhatWeHave from "../components/WhatWeHave";
 import WhatWeDo from "../components/WhatWeDo";
 import Footer from "../components/Footer";
+import { useNavigate } from "react-router-dom";
 import "./Prefab.css";
 
 const Prefab = () => {
+  const navigate = useNavigate();
+
+  const onProjectClick = useCallback(() => {
+    navigate("/prefab1");
+  },[navigate])
+
   const onHeaderLinkContainerClick = useCallback(() => {
     const anchor = document.querySelector("[data-scroll-to='whoWeAre']");
     if (anchor) {
@@ -92,6 +99,7 @@ const Prefab = () => {
           prodPhot="/rectangle-22@2x.png"
           produName="LiteSite"
           productDesc="Esta sería la descripción de mi producto, si tan solo tuviera uno"
+          onClickEvent={onProjectClick}
           prodPhot1="/rectangle-225@2x.png"
           produName1="MiniSite"
           productDesc1="Test"

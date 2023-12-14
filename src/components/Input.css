@@ -1,6 +1,8 @@
 .input-text-here {
   flex: 1;
   position: relative;
+  color: var(--color-black);
+  display: flex;
 }
 .input-text-here-wrapper {
   align-self: stretch;

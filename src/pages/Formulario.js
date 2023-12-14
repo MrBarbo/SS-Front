@@ -53,72 +53,37 @@ const Formulario = () => {
       <Header
         showFrameDiv={false}
         showHeaderLink        
-        frameDivJustifyContent="flex-start"
-        frameDivGap="43px"
-        headerLinkCursor="pointer"
       />       
       <main className="input-parent">
         <Input
-          inputPlaceholder="Company Name / Page Title"          
-          inputLabel="Text goes here..."
           inputId="1"
-          inputName="nombre"
-          inputAlignSelf="stretch"
-          h2AlignSelf="stretch"
-          frameDivBoxSizing="border-box"
-          inputTextHereDisplay="flex"
+          inputName="name"  
+          inputTitle="Company Name / Page Title"          
+          inputLabel="Text goes here..."                  
         />
         <Input
-          inputPlaceholder="Description"
-          showH2
-          inputLabel
-          inputId
-          inputName          
-          
-          inputTextHereFontSize="unset"
-          inputTextHereFontFamily="unset"
-          inputTextHereColor="unset"
-          inputTextHereTextAlign="unset"
-          inputTextHereDisplay="flex"
+          inputId="2"
+          inputName="desc"  
+          inputTitle="Description"
+          inputLabel="Text goes here..."                   
         />
         <Input
-          inputPlaceholder="Mission"
-          showH2
-          inputWidth="unset"
-          inputAlignSelf="stretch"
-          h2AlignSelf="stretch"
-          frameDivBoxSizing="border-box"
-          inputTextHereFontSize="unset"
-          inputTextHereFontFamily="unset"
-          inputTextHereColor="unset"
-          inputTextHereTextAlign="unset"
-          inputTextHereDisplay="flex"
+          inputId="3"
+          inputName="miss"  
+          inputTitle="Mission"
+          inputLabel="Text goes here..."            
         />
         <Input
-          inputPlaceholder="Vission"
-          showH2
-          inputWidth="unset"
-          inputAlignSelf="stretch"
-          h2AlignSelf="stretch"
-          frameDivBoxSizing="border-box"
-          inputTextHereFontSize="unset"
-          inputTextHereFontFamily="unset"
-          inputTextHereColor="unset"
-          inputTextHereTextAlign="unset"
-          inputTextHereDisplay="flex"
+          inputId="4"
+          inputName="viss"  
+          inputTitle="Vission"
+          inputLabel="Text goes here..."            
         />
         <Input
-          inputPlaceholder="Objetives"
-          showH2
-          inputWidth="unset"
-          inputAlignSelf="stretch"
-          h2AlignSelf="stretch"
-          frameDivBoxSizing="border-box"
-          inputTextHereFontSize="unset"
-          inputTextHereFontFamily="unset"
-          inputTextHereColor="unset"
-          inputTextHereTextAlign="unset"
-          inputTextHereDisplay="flex"
+          inputId="5"
+          inputName="obj"  
+          inputTitle="Objetives"          
+          inputLabel="Text goes here..."  
         />
         <WhatWeOffer
           serviceImageUrl="+"
@@ -205,17 +170,10 @@ const Formulario = () => {
         />
         <div className="input-group">
           <Input
-            inputPlaceholder="InputType"
-            showH2={false}
-            inputWidth="unset"
-            inputAlignSelf="stretch"
-            h2AlignSelf="stretch"
-            frameDivBoxSizing="border-box"
-            inputTextHereFontSize="unset"
-            inputTextHereFontFamily="unset"
-            inputTextHereColor="unset"
-            inputTextHereTextAlign="unset"
-            inputTextHereDisplay="unset"
+            inputId="6"
+            inputName="obj"  
+            inputTitle="Objetives"          
+            inputLabel="Text goes here..."  
           />
           <Input
             inputPlaceholder="InputType"

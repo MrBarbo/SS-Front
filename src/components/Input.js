@@ -11,11 +11,8 @@ const Input = ({
   
   inputLabel,
   inputType,
-  inputPlaceholder,  
-  
-  frameDivBoxSizing,
-  inputTextHereColor, 
-  inputTextHereDisplay,
+  inputTitle,  
+
 }) => {
   
 
@@ -23,23 +20,15 @@ const Input = ({
 
   
 
-  const inputTextHereStyle = useMemo(() => {
-    return {      
-      inputTextHereColor: common.black,      
-      display: inputTextHereDisplay,
-    };
-  }, [
-    inputTextHereColor,    
-    inputTextHereDisplay,
-  ]);
+
 
   return (
     <div className="input">
       <H2
-        propHeader={inputPlaceholder}                
+        propHeader={inputTitle}                
       />
       <div className="input-text-here-wrapper" >
-        <div className="input-text-here" style={inputTextHereStyle}>
+        <div className="input-text-here">
         <TextField          
           className="text"       
           color="primary"            

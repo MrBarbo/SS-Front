@@ -6,8 +6,6 @@ import {
   useLocation,
 } from "react-router-dom";
 import Landing from "./pages/Landing1";
-import Face from "./pages/Landing";
-import MyComponent from "./pages/formtest";
 import LoginPage from "./pages/LoginPage";
 import Formulario from "./pages/Formulario";
 import Prefab from "./pages/Prefab";
@@ -51,11 +49,9 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Landing />} />
-      <Route path="/face" element={<Face />} />
-      <Route path="/formtest" element={<MyComponent />} />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/formulario" element={<Formulario />} />
-      <Route path="/prefab1" element={<Prefab />} />
+      <Route path="/plantilla1" element={<Prefab />} />
     </Routes>
   );
 }
